@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
+  - MBProgressHUD (1.2.0)
+  - NVActivityIndicatorView (5.0.1):
+    - NVActivityIndicatorView/Base (= 5.0.1)
+  - NVActivityIndicatorView/Base (5.0.1)
+  - ObjectMapper (3.5.3)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper (~> 5.1)
+  - Kingfisher
+  - MBProgressHUD
+  - NVActivityIndicatorView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Kingfisher
+    - MBProgressHUD
+    - NVActivityIndicatorView
+    - ObjectMapper
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  NVActivityIndicatorView: 738e843cb8924e9e4fc3e559d0728031624bf860
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+
+PODFILE CHECKSUM: ec5673e6304b013f2f56a34b82f7cafda34d5d1c
+
+COCOAPODS: 1.9.1
