@@ -3,13 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3931C0F12555E8F00070FEF5 /* PlayersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3931C0EF2555E8F00070FEF5 /* PlayersCell.swift */; };
+		3931C0F22555E8F00070FEF5 /* PlayersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3931C0F02555E8F00070FEF5 /* PlayersCell.xib */; };
+		3931C0F42555E9350070FEF5 /* TeamDetailsMOdel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3931C0F32555E9350070FEF5 /* TeamDetailsMOdel.swift */; };
+		39AA4BF62555922A00117584 /* LegaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA4BF52555922A00117584 /* LegaModel.swift */; };
+		39AA4BF8255592D600117584 /* TeamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA4BF7255592D600117584 /* TeamsModel.swift */; };
+		39AA4BFA2555936000117584 /* SeasonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA4BF92555936000117584 /* SeasonModel.swift */; };
+		39AA4BFC2555948B00117584 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA4BFB2555948B00117584 /* TeamsViewController.swift */; };
+		39AA4BFE255594D700117584 /* TeamDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA4BFD255594D700117584 /* TeamDetailsViewController.swift */; };
+		39AA4C002555951D00117584 /* TeamsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA4BFF2555951D00117584 /* TeamsPresenter.swift */; };
+		39AA4C022555952A00117584 /* TeamDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA4C012555952A00117584 /* TeamDetailsPresenter.swift */; };
+		39AA4C05255595D700117584 /* teamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA4C03255595D700117584 /* teamCell.swift */; };
+		39AA4C06255595D700117584 /* teamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39AA4C04255595D700117584 /* teamCell.xib */; };
 		39C28E7E2553E2340022A1AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C28E7D2553E2340022A1AA /* AppDelegate.swift */; };
 		39C28E802553E2340022A1AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C28E7F2553E2340022A1AA /* SceneDelegate.swift */; };
-		39C28E822553E2340022A1AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C28E812553E2340022A1AA /* ViewController.swift */; };
 		39C28E852553E2340022A1AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C28E832553E2340022A1AA /* Main.storyboard */; };
 		39C28E882553E2340022A1AA /* OrcasTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39C28E862553E2340022A1AA /* OrcasTask.xcdatamodeld */; };
 		39C28E8A2553E2370022A1AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C28E892553E2370022A1AA /* Assets.xcassets */; };
@@ -68,10 +79,21 @@
 
 /* Begin PBXFileReference section */
 		23DEFB889815387CA3D2003F /* Pods-OrcasTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrcasTaskTests.release.xcconfig"; path = "Target Support Files/Pods-OrcasTaskTests/Pods-OrcasTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		3931C0EF2555E8F00070FEF5 /* PlayersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersCell.swift; sourceTree = "<group>"; };
+		3931C0F02555E8F00070FEF5 /* PlayersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayersCell.xib; sourceTree = "<group>"; };
+		3931C0F32555E9350070FEF5 /* TeamDetailsMOdel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsMOdel.swift; sourceTree = "<group>"; };
+		39AA4BF52555922A00117584 /* LegaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegaModel.swift; sourceTree = "<group>"; };
+		39AA4BF7255592D600117584 /* TeamsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsModel.swift; sourceTree = "<group>"; };
+		39AA4BF92555936000117584 /* SeasonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonModel.swift; sourceTree = "<group>"; };
+		39AA4BFB2555948B00117584 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
+		39AA4BFD255594D700117584 /* TeamDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsViewController.swift; sourceTree = "<group>"; };
+		39AA4BFF2555951D00117584 /* TeamsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsPresenter.swift; sourceTree = "<group>"; };
+		39AA4C012555952A00117584 /* TeamDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsPresenter.swift; sourceTree = "<group>"; };
+		39AA4C03255595D700117584 /* teamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamCell.swift; sourceTree = "<group>"; };
+		39AA4C04255595D700117584 /* teamCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = teamCell.xib; sourceTree = "<group>"; };
 		39C28E7A2553E2340022A1AA /* OrcasTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrcasTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C28E7D2553E2340022A1AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39C28E7F2553E2340022A1AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		39C28E812553E2340022A1AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		39C28E842553E2340022A1AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39C28E872553E2340022A1AA /* OrcasTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrcasTask.xcdatamodel; sourceTree = "<group>"; };
 		39C28E892553E2370022A1AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -275,10 +297,53 @@
 		39C28EF22553E3850022A1AA /* MainPage */ = {
 			isa = PBXGroup;
 			children = (
+				39C28EF62553E5D40022A1AA /* Models */,
+				39C28EF52553E5CF0022A1AA /* Views */,
+				39C28EF42553E5BC0022A1AA /* Presenters */,
+				39C28EF32553E5B00022A1AA /* Controllers */,
 				39C28E832553E2340022A1AA /* Main.storyboard */,
-				39C28E812553E2340022A1AA /* ViewController.swift */,
 			);
 			path = MainPage;
+			sourceTree = "<group>";
+		};
+		39C28EF32553E5B00022A1AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				39AA4BFB2555948B00117584 /* TeamsViewController.swift */,
+				39AA4BFD255594D700117584 /* TeamDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		39C28EF42553E5BC0022A1AA /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				39AA4BFF2555951D00117584 /* TeamsPresenter.swift */,
+				39AA4C012555952A00117584 /* TeamDetailsPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		39C28EF52553E5CF0022A1AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				39AA4C03255595D700117584 /* teamCell.swift */,
+				39AA4C04255595D700117584 /* teamCell.xib */,
+				3931C0EF2555E8F00070FEF5 /* PlayersCell.swift */,
+				3931C0F02555E8F00070FEF5 /* PlayersCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39C28EF62553E5D40022A1AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39AA4BF52555922A00117584 /* LegaModel.swift */,
+				39AA4BF7255592D600117584 /* TeamsModel.swift */,
+				39AA4BF92555936000117584 /* SeasonModel.swift */,
+				3931C0F32555E9350070FEF5 /* TeamDetailsMOdel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D0A56A04362AC6C4979850D8 /* Frameworks */ = {
@@ -298,7 +363,6 @@
 				DF28AA7A3F2AA58738B5C0FE /* Pods-OrcasTaskTests.debug.xcconfig */,
 				23DEFB889815387CA3D2003F /* Pods-OrcasTaskTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -386,6 +450,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3931C0F22555E8F00070FEF5 /* PlayersCell.xib in Resources */,
+				39AA4C06255595D700117584 /* teamCell.xib in Resources */,
 				39C28E8D2553E2370022A1AA /* LaunchScreen.storyboard in Resources */,
 				39C28E8A2553E2370022A1AA /* Assets.xcassets in Resources */,
 				39C28E852553E2340022A1AA /* Main.storyboard in Resources */,
@@ -473,8 +539,10 @@
 				39C28ED42553E3230022A1AA /* EndPoint.swift in Sources */,
 				39C28ECD2553E3230022A1AA /* NetworkManager.swift in Sources */,
 				39C28ED32553E3230022A1AA /* ExpiredRequest.swift in Sources */,
+				3931C0F42555E9350070FEF5 /* TeamDetailsMOdel.swift in Sources */,
 				39C28ED12553E3230022A1AA /* HttpHelper.swift in Sources */,
 				39C28EE72553E3230022A1AA /* StringExtension.swift in Sources */,
+				39AA4C002555951D00117584 /* TeamsPresenter.swift in Sources */,
 				39C28EEF2553E3230022A1AA /* BaseViewController.swift in Sources */,
 				39C28EE12553E3230022A1AA /* Storyboard.swift in Sources */,
 				39C28EDB2553E3230022A1AA /* PublicFunctions.swift in Sources */,
@@ -485,7 +553,7 @@
 				39C28ECE2553E3230022A1AA /* ErrorHandler.swift in Sources */,
 				39C28EDF2553E3230022A1AA /* RoundedView.swift in Sources */,
 				39C28ED62553E3230022A1AA /* Language.swift in Sources */,
-				39C28E822553E2340022A1AA /* ViewController.swift in Sources */,
+				39AA4C05255595D700117584 /* teamCell.swift in Sources */,
 				39C28EEC2553E3230022A1AA /* AMCircleImageView.swift in Sources */,
 				39C28ED92553E3230022A1AA /* UIColorExtention.swift in Sources */,
 				39C28EDD2553E3230022A1AA /* UITableView+Ext.swift in Sources */,
@@ -494,22 +562,29 @@
 				39C28EF02553E3230022A1AA /* BaseModel.swift in Sources */,
 				39C28EE22553E3230022A1AA /* Animator.swift in Sources */,
 				39C28ED52553E3230022A1AA /* Constant.swift in Sources */,
+				39AA4BF8255592D600117584 /* TeamsModel.swift in Sources */,
 				39C28E882553E2340022A1AA /* OrcasTask.xcdatamodeld in Sources */,
 				39C28ED72553E3230022A1AA /* RoundedCornerButton.swift in Sources */,
 				39C28EE32553E3230022A1AA /* CardWithShadow.swift in Sources */,
 				39C28ECF2553E3230022A1AA /* ResponseSerializer.swift in Sources */,
 				39C28EEB2553E3230022A1AA /* NavigationBarExtension.swift in Sources */,
 				39C28EE52553E3230022A1AA /* SetImageWithPlaceholder.swift in Sources */,
+				3931C0F12555E8F00070FEF5 /* PlayersCell.swift in Sources */,
 				39C28E7E2553E2340022A1AA /* AppDelegate.swift in Sources */,
 				39C28E802553E2340022A1AA /* SceneDelegate.swift in Sources */,
 				39C28EE02553E3230022A1AA /* Extensions.swift in Sources */,
+				39AA4C022555952A00117584 /* TeamDetailsPresenter.swift in Sources */,
 				39C28EEE2553E3230022A1AA /* DateExtension.swift in Sources */,
 				39C28EEA2553E3230022A1AA /* Loadable.swift in Sources */,
 				39C28ECC2553E3230022A1AA /* Name.swift in Sources */,
 				39C28ED82553E3230022A1AA /* CardView.swift in Sources */,
+				39AA4BFA2555936000117584 /* SeasonModel.swift in Sources */,
 				39C28EED2553E3230022A1AA /* DoubleExtension.swift in Sources */,
+				39AA4BF62555922A00117584 /* LegaModel.swift in Sources */,
 				39C28ED02553E3230022A1AA /* RequestConfiguraton.swift in Sources */,
 				39C28EE62553E3230022A1AA /* Notification.swift in Sources */,
+				39AA4BFC2555948B00117584 /* TeamsViewController.swift in Sources */,
+				39AA4BFE255594D700117584 /* TeamDetailsViewController.swift in Sources */,
 				39C28EDA2553E3230022A1AA /* ArrayExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

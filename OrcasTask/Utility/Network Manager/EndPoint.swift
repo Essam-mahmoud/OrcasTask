@@ -12,7 +12,8 @@ import Foundation
 struct Endpoint {
     
     enum user {
-        case main
+        case teams
+        case details
     }
     
 }
@@ -22,7 +23,8 @@ extension Endpoint.user {
         
         switch self {
             
-        case .main: endpoint = "/v3/27867999-8b3e-4c04-a761-42def62ea1e8"
+        case .teams: endpoint = "competitions/2021/teams"
+        case .details: endpoint = "teams/"
         }
         
         return endpoint
